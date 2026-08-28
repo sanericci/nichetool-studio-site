@@ -6,13 +6,5 @@
     "price": "$19",
     "url": "https://sanericci.gumroad.com/l/kpkkbc",
     "cover_url": "https://public-files.gumroad.com/6jz8f3px8h4aer60lxdnch5ard24"
-  },
-  {
-    "slug": "rotation-test-tool",
-    "name": "Rotation Test Tool (internal test, will be disabled)",
-    "summary": "internal pipeline test - safe to ignore",
-    "price": "$1",
-    "url": "https://sanericci.gumroad.com/l/fcgvu",
-    "cover_url": "https://raw.githubusercontent.com/sanericci/nichetool-studio-site/main/products/rotation-test-tool/cover.png"
   }
 ]
