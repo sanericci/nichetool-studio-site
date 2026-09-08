@@ -14,5 +14,13 @@
     "price": "$29",
     "url": "https://sanericci.gumroad.com/l/pnssa",
     "cover_url": ""
+  },
+  {
+    "slug": "stencilforge-tattoo-stencil-tool",
+    "name": "StencilForge — Tattoo Stencil Prep & Sheet Layout Tool",
+    "summary": "Turn any photo or logo into a clean, correctly-mirrored, print-ready tattoo stencil sheet — fully offline, one-time purchase.",
+    "price": "$24",
+    "url": "https://sanericci.gumroad.com/l/qhqvvu",
+    "cover_url": "https://raw.githubusercontent.com/sanericci/nichetool-studio-site/main/products/stencilforge-tattoo-stencil-tool/cover.png"
   }
 ]
