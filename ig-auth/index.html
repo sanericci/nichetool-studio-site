@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Instagram 許可コード</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif; background:#f6f6f4; color:#1d1d1f; margin:0; padding:24px 16px; }
+  .box { max-width:640px; margin:0 auto; background:#fff; border-radius:12px; padding:24px; box-shadow:0 1px 3px rgba(0,0,0,.08); }
+  h1 { font-size:20px; margin:0 0 12px; }
+  p { line-height:1.7; }
+  textarea { width:100%; box-sizing:border-box; height:120px; font-family:ui-monospace, Menlo, monospace; font-size:13px; padding:10px; border:1px solid #ccc; border-radius:8px; }
+  button { margin-top:12px; font-size:16px; padding:12px 20px; border:0; border-radius:8px; background:#1d1d1f; color:#fff; cursor:pointer; }
+  .err { color:#b00020; }
+  #done { margin-left:10px; color:#0a7d32; }
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>Instagram 許可コード</h1>
+  <p id="msg">読み込み中…</p>
+  <textarea id="code" readonly hidden></textarea>
+  <div><button id="copy" type="button" hidden>コピーする</button><span id="done"></span></div>
+</div>
+<script>
+(function () {
+  var q = new URLSearchParams(location.search);
+  var code = (q.get('code') || '').replace(/#_$/, '');
+  var msg = document.getElementById('msg');
+  if (!code) {
+    var e = q.get('error_description') || q.get('error_reason') || q.get('error');
+    msg.className = 'err';
+    msg.textContent = e ? ('許可されませんでした: ' + e) : 'コードがありません。Claudeが渡したリンクから開き直してください。';
+    return;
+  }
+  msg.textContent = '許可が済みました。下の「コピーする」を押して、Claudeが開いたGitHubの画面に貼ってください。このコードは1時間で使えなくなります。';
+  var t = document.getElementById('code');
+  t.value = code; t.hidden = false;
+  var b = document.getElementById('copy'); b.hidden = false;
+  b.addEventListener('click', function () {
+    t.select();
+    var ok = function () { document.getElementById('done').textContent = 'コピーしました'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(code).then(ok, function () { document.execCommand('copy'); ok(); }); }
+    else { document.execCommand('copy'); ok(); }
+  });
+  history.replaceState(null, '', location.pathname);
+})();
+</script>
+</body>
+</html>
