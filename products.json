@@ -5,7 +5,7 @@
     "summary": "Turn a photo into a numbered stained glass cutting pattern with a per-colour glass cut list and a full-size tiled print — 100% offline, one-time purchase.",
     "price": "$29",
     "url": "https://sanericci.gumroad.com/l/jtgwt",
-    "cover_url": ""
+    "cover_url": "https://raw.githubusercontent.com/sanericci/nichetool-studio-site/main/products/leadline-stained-glass-pattern-tool/cover.png"
   },
   {
     "slug": "pod-batch-export",
@@ -13,7 +13,7 @@
     "summary": "One HTML file that resizes your artwork for Etsy, Printful, Printify, Redbubble & Amazon Merch — correct pixels, correct DPI, correct background, in one batch.",
     "price": "$19",
     "url": "https://sanericci.gumroad.com/l/kpkkbc",
-    "cover_url": "https://public-files.gumroad.com/6jz8f3px8h4aer60lxdnch5ard24"
+    "cover_url": "https://raw.githubusercontent.com/sanericci/nichetool-studio-site/main/products/pod-batch-export/cover.png"
   },
   {
     "slug": "spotlayer-separator",
@@ -21,7 +21,7 @@
     "summary": "Turn flat artwork into press-ready spot color separations with halftones, underbase and trapping — offline in your browser, no Photoshop required.",
     "price": "$29",
     "url": "https://sanericci.gumroad.com/l/pnssa",
-    "cover_url": ""
+    "cover_url": "https://raw.githubusercontent.com/sanericci/nichetool-studio-site/main/products/spotlayer-separator/cover.png"
   },
   {
     "slug": "stencilforge-tattoo-stencil-tool",
