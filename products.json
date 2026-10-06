@@ -24,6 +24,14 @@
     "cover_url": "https://raw.githubusercontent.com/sanericci/nichetool-studio-site/main/products/pod-batch-export/cover.png"
   },
   {
+    "slug": "seamgrow-seam-allowance-tool",
+    "name": "SeamGrow — Seam Allowance & Pattern Print Tool for Sewing Patterns",
+    "summary": "Trace a sewing pattern piece, set a different seam/hem/fold allowance per edge, and get a true-to-scale, multi-page, print-ready cutting line.",
+    "price": "$29",
+    "url": "https://sanericci.gumroad.com/l/riiyt",
+    "cover_url": ""
+  },
+  {
     "slug": "spotlayer-separator",
     "name": "SpotLayer — Spot Color & Halftone Separator for Screen Printing",
     "summary": "Turn flat artwork into press-ready spot color separations with halftones, underbase and trapping — offline in your browser, no Photoshop required.",
