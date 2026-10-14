@@ -48,6 +48,14 @@
     "cover_url": "https://raw.githubusercontent.com/sanericci/nichetool-studio-site/main/products/stencilforge-tattoo-stencil-tool/cover.png"
   },
   {
+    "slug": "strapforge-belt-pattern-tool",
+    "name": "StrapForge — Custom Leather Belt & Strap Pattern Generator",
+    "summary": "Belt, collar and strap patterns sized to your measurements, with auto fold allowance, hole placement, assembly guide and true-scale printing. Works offline.",
+    "price": "$24",
+    "url": "https://sanericci.gumroad.com/l/xlzeow",
+    "cover_url": ""
+  },
+  {
     "slug": "tumblerwarp-wrap-distortion-tool",
     "name": "TumblerWarp — Sublimation Tumbler Wrap Pre-Distortion Tool",
     "summary": "Turn flat artwork into a correctly pre-distorted wrap for tapered sublimation tumblers — exact size, DPI embedded, 100% offline, one-time purchase.",
