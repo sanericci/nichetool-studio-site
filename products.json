@@ -62,5 +62,13 @@
     "price": "$24",
     "url": "https://sanericci.gumroad.com/l/mqfbk",
     "cover_url": "https://raw.githubusercontent.com/sanericci/nichetool-studio-site/main/products/tumblerwarp-wrap-distortion-tool/cover.png"
+  },
+  {
+    "slug": "wrapguard-armor-pattern-tool",
+    "name": "WrapGuard — Custom Tapered Armor Panel Generator",
+    "summary": "Bracer, greave and cuff cosplay armor patterns sized to your own measurements, with strap tabs, print calibration and true-scale tiled printing. Works offline.",
+    "price": "$24",
+    "url": "https://sanericci.gumroad.com/l/fmypwa",
+    "cover_url": "https://raw.githubusercontent.com/sanericci/nichetool-studio-site/main/products/wrapguard-armor-pattern-tool/cover.png"
   }
 ]
