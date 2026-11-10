@@ -32,6 +32,14 @@
     "cover_url": "https://raw.githubusercontent.com/sanericci/nichetool-studio-site/main/products/pod-batch-export/cover.png"
   },
   {
+    "slug": "scrollsmith-blacksmith-scroll-template-tool",
+    "name": "ScrollSmith — Custom Blacksmith Scroll & Spiral Template Generator",
+    "summary": "Generate custom blacksmith scroll and S-scroll spiral templates from your own measurements, with an exact bar-stock length estimate and a full-scale printable bending template.",
+    "price": "$24",
+    "url": "https://sanericci.gumroad.com/l/hmojlx",
+    "cover_url": "https://raw.githubusercontent.com/sanericci/nichetool-studio-site/main/products/scrollsmith-blacksmith-scroll-template-tool/cover.png"
+  },
+  {
     "slug": "seamgrow-seam-allowance-tool",
     "name": "SeamGrow — Seam Allowance & Pattern Print Tool for Sewing Patterns",
     "summary": "Trace a sewing pattern piece, set a different seam/hem/fold allowance per edge, and get a true-to-scale, multi-page, print-ready cutting line.",
